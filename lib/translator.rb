@@ -32,7 +32,7 @@ end
 
 def get_english_meaning(path, emoticon)
    emoticons = load_library(path)
-   binding.pry 
+  
   if emoticons['get_meaning'].include?(emoticon)
     emoticons["get_meaning"][emoticon]
   else 
