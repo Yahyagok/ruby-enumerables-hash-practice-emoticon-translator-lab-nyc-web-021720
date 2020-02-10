@@ -20,7 +20,7 @@ end
 
 def get_japanese_emoticon(path, emoticon )
   emoticons =  load_library(path)
-  binding.pry 
+ # binding.pry 
   emoticon_japanese = emoticons['get_emoticon'][emoticon]
   if emoticons["get_emoticon"].include?(emoticon) 
     emoticons["get_emoticon"][emoticon]
